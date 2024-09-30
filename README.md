@@ -1,35 +1,76 @@
-# HTML Basics Project
+# Flask Basics Project
 
 Teacher: David Steedman
 
-This repository contains two HTML tasks for the MHS Software Engineering class. This project focuses on creating basic HTML pages, introducing students to fundamental HTML concepts and structure. Students will learn about HTML tags, semantic elements, tables, and forms.
+This repository contains four tasks for the MHS Software Engineering class focusing on Flask. This project introduces students to building web applications using Flask, covering installation, routing, templates, and form handling.
 
-## Task 1: Basic HTML Page
-- File: `task1.html`
-- Description: Create a basic HTML page that includes a main heading, a picture with a subheading, and a list of links. This task covers:
-  - Basic HTML structure (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)
-  - Headings (`<h1>` to `<h6>`)
-  - Images (`<img>`)
-  - Lists (`<ul>`, `<ol>`, `<li>`)
-  - Links (`<a>`)
+## Flask Tasks
 
-## Task 2: Contact Form
-- File: `task2.html`
-- Description: Create a more complex HTML page with a team profile table and a contact form. This task covers:
-  - Semantic HTML elements (`<header>`, `<nav>`, `<section>`, `<footer>`)
-  - Tables (`<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`)
-  - Forms (`<form>`, `<input>`, `<textarea>`, `<button>`)
-  - Radio buttons and labels
+### Task 1: Installation
+
+- File: `app.py`
+- Description: Set up a Flask development environment and create a basic Flask application.
+- This task covers:
+  - Creating and activating a virtual environment
+  - Installing Flask
+  - Setting up a basic Flask application
+
+### Task 2: Routes
+
+- File: `app.py`
+- Description: Implement various routes in your Flask application, including:
+  - A basic route
+  - Dynamic routes with parameters
+  - Routes with query parameters
+- This task covers:
+  - Creating different types of routes
+  - Handling URL parameters
+  - Working with query parameters
+
+### Task 3: Templates
+
+- Files: `app.py`, `templates/*.html`
+- Description: Use Jinja2 templates to create dynamic HTML pages, including:
+  - Basic templates
+  - Template inheritance
+  - Passing variables to templates
+- This task covers:
+  - Creating and rendering HTML templates
+  - Using template inheritance for consistent layouts
+  - Dynamically generating content with Jinja2
+
+### Task 4: Flask Contact Form
+
+- Files: `app.py`, `templates/*.html`
+- Description: Create a contact form using Flask and Bootstrap, including:
+  - Form creation with Bootstrap styling
+  - Form submission handling
+  - Displaying submitted data
+- This task covers:
+  - Integrating Bootstrap with Flask
+  - Handling form submissions
+  - Redirecting and displaying form data
 
 ## How to Submit Your Work
 
 1. Accept the assignment and clone this repository to your local machine.
-2. Create your HTML files (`task1.html` and `task2.html`) in the root directory of the repository.
-3. Commit your changes with meaningful commit messages.
-4. Push your changes to your GitHub repository.
+2. Create the necessary Python and HTML files for each task.
+3. Implement the required functionality for each task.
+4. Commit your changes with meaningful commit messages.
+5. Push your changes to your GitHub repository.
 
 ## Resources
 
-- [MDN Web Docs - HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-- [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
-- [HTML Validator](https://validator.w3.org/)
+### Flask Resources
+
+- [Flask Documentation](https://flask.palletsprojects.com/)
+- [Flask Quickstart](https://flask.palletsprojects.com/en/2.3.x/quickstart/)
+- [Jinja2 Documentation](https://jinja.palletsprojects.com/)
+
+### Additional Resources
+
+- [Python Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
+- [HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+- [Bootstrap Documentation](https://getbootstrap.com/docs/)
+
+Remember to follow Flask best practices and use virtual environments for your project. Good luck with your tasks!

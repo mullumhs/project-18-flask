@@ -6,6 +6,10 @@
     "zignd.html-css-class-completion",
     "ecmel.vscode-html-css",
     "pranaygp.vscode-css-peek",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "wholroyd.jinja",
+    "cstrap.flask-snippets"
   ]
 }
